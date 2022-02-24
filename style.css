@@ -70,3 +70,20 @@ ul {
 li {
     padding: 10px;
 }
+
+#why-us {
+    padding-top: 200px;
+    padding-bottom: 250x;
+    margin-bottom: 15%;
+}
+
+
+.col {
+    padding-right: 0px;
+    padding-left: 30px;
+    padding-bottom: 200px;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
