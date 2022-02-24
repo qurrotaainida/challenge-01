@@ -1,0 +1,21 @@
+nav {
+    color: black;
+}
+
+.logo {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+}
+
+header {
+    background-color: #F1F3FF;
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+}
+.btn {
+    background-color: #5CB85F;
+    color: white;
+    font-weight: bold;
+}
