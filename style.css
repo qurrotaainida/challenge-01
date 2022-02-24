@@ -286,3 +286,10 @@ footer {
     flex-direction: column;
     padding: 20px;
 }
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
