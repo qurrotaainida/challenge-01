@@ -1,3 +1,6 @@
+#main {
+    overflow: hidden;
+}
 nav {
     color: black;
 }
@@ -18,4 +21,33 @@ header {
     background-color: #5CB85F;
     color: white;
     font-weight: bold;
+}
+
+
+a {
+    color: black;
+
+
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#car {
+    background-color: #F1F3FF;
+    padding-top: 60px;
+
+}
+
+#car .car-image {
+    width: 100%;
+    transform: translateX(20%);
+}
+
+@media screen and (min-width: 1024px) {
+    #car .car-image {
+        -webkit-transform: translateX(20%);
+        transform: translateX(20%);
+    }
 }
