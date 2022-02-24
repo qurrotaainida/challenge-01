@@ -51,3 +51,22 @@ h2 {
         transform: translateX(20%);
     }
 }
+#best-car {
+    padding-top: 400px;
+    padding-bottom: 200x;
+}
+
+.btn {
+    background-color: #5CB85F;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style-image: url('img/ceklis.png');
+
+}
+
+li {
+    padding: 10px;
+}
