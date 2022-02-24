@@ -1,6 +1,7 @@
 #main {
     overflow: hidden;
 }
+
 nav {
     color: black;
 }
@@ -17,6 +18,7 @@ header {
     padding-bottom: 36px;
 
 }
+
 .btn {
     background-color: #5CB85F;
     color: white;
@@ -51,6 +53,7 @@ h2 {
         transform: translateX(20%);
     }
 }
+
 #best-car {
     padding-top: 300px;
     padding-bottom: 200x;
@@ -89,121 +92,145 @@ li {
 }
 
 .testimonial {
-	margin-top: 5%;
+    margin-top: 5%;
 }
 
 .testimonial .h1__testimonial {
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 36px;
-	text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
 }
 
 .testimonial .p__testimonial {
-	font-size: 14px;
-	line-height: 20px;
-	text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
 }
 
 .carousel {
-	margin-top: 2%;
+    margin-top: 2%;
 }
 
 .carousel-indicators {
-	left: 0;
-	top: auto;
-	bottom: -70px;
+    left: 0;
+    top: auto;
+    bottom: -70px;
 }
+
 .carousel-indicators .bt {
-	display: flex;
-	justify-content: space-around;
-	width: 100px;
-	margin: auto;
-	margin-top: 30px;
-  }
-  .carousel-indicators .bt1 {
-	border-radius: 50%;
-	background-color: #fff;
-	margin-left: 10px;
-	border: 1px solid #C4C4C4;
-	font-size: 15px;
-	text-align: center;
-  }
-  .carousel-indicators .bt1 i {
-	transition: 0.5s;
-  }
-  .carousel-indicators .bt1:hover {
-	background-color: #5cb85f;
-	border: 1px solid #5cb85f;
-  }
-  .carousel-indicators .bt1:hover i {
-	color: white;
-  }
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.carousel-indicators .bt1 {
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 10px;
+    border: 1px solid #C4C4C4;
+    font-size: 15px;
+    text-align: center;
+}
+
+.carousel-indicators .bt1 i {
+    transition: 0.5s;
+}
+
+.carousel-indicators .bt1:hover {
+    background-color: #5cb85f;
+    border: 1px solid #5cb85f;
+}
+
+.carousel-indicators .bt1:hover i {
+    color: white;
+}
+
 .carousel-indicators .bi-chevron-left,
 .carousel-indicators .bi-chevron-right {
-	height: 30px;
-	width: 30px;
-	padding: 5px;
-	border-radius: 50%;
-	font-size: 15px;
-	text-align: center;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
 }
 
 .carousel-indicators .active {
-	color: white;
-	background-color: #5CB85F;
-	border: none;
-	text-align: center;
+    color: white;
+    background-color: #5CB85F;
+    border: none;
+    text-align: center;
 }
 
 .single-box {
-	padding: 50px 30px 40px;
-	border-radius: 8px;
-	background-color: #F1F3FF;
-	height: 240px;
+    padding: 50px 30px 40px;
+    border-radius: 8px;
+    background-color: #F1F3FF;
+    height: 240px;
 }
 
 .testimonial .img-area {
-	position: absolute;
-	margin: 0;
-	width: 30%;
+    position: absolute;
+    margin: 0;
+    width: 30%;
 }
+
 .sewa__mobil {
-	margin-top: 20%;
+    margin-top: 20%;
     margin-bottom: 20%;
 }
+
 .img-area img {
-	width: 70px;
-	height: 70px;
-	margin-top: 30px;
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
 }
 
 .text-img .bi-star-fill {
-	color: #F9CC00;
+    color: #F9CC00;
 }
 
 .text-img .bi-star-half {
-	color: #F9CC00;
+    color: #F9CC00;
 }
 
 .text-img p {
-	font-size: 14px;
-	line-height: 20px;
-	margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
 }
 
 .text-img h2 {
-	font-size: 14px;
-	font-weight: 600;
-	line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 .testimonial .text-img {
-	float: left;
-	padding-left: 30%;
+    float: left;
+    padding-left: 30%;
 }
-.fa-solid{
+
+.fa-solid {
     color: #F9CC00;
+}
+
+.materi4 {
+    display: flex;
+    margin-bottom: 150px;
+
+}
+
+.content3 {
+    flex-basis: 50%;
+}
+
+.content4 {
+    width: 100%;
+    flex-basis: 50%;
 }
 
 .jumbotron {
@@ -231,4 +258,31 @@ li {
     font-size: 14px;
     line-height: 20px;
     font-weight: 700;
+}
+
+.dropbox {
+    width: 100%;
+    border: solid #D4D4D4 1px;
+    padding: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.dropimg {
+    float: right;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.alamat,
+.navbot,
+.iconlist,
+.logobot {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
