@@ -52,7 +52,7 @@ h2 {
     }
 }
 #best-car {
-    padding-top: 400px;
+    padding-top: 300px;
     padding-bottom: 200x;
 }
 
@@ -206,3 +206,29 @@ li {
     color: #F9CC00;
 }
 
+.jumbotron {
+    text-align: center;
+    background-color: #0D28A6;
+    border-radius: 13px;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #fff;
+}
+
+.jumbotron p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.jumbotron .btn-success {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
